@@ -1,0 +1,198 @@
+body {
+	background-color: #6699ff;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #6666cc;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.3vw;
+	width: 100%;
+	height: 10%;
+	align-self: flex-start;
+	positon: fixed;	
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.8vw;
+	font-family: "Courier";
+	margin-left: 1%;
+	color: #990066;
+}
+
+h3 {
+	display: flex;
+	font-size: 1.6vw;
+	align-self: flex-end;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	order: 1;
+}
+
+.lout {
+	align-self: flex-end;
+}
+
+h5 {
+	display: flex;
+	text-align: center;
+	font-size: 1.8vw;
+	align-self: center;
+	color: red;
+	margin-left: 10%;
+}
+
+.idh {
+	font-size: 1.4vw;
+	align-self: flex-end;
+	order 4;
+	margin-right: 1%;
+}
+
+.core {
+	display: flex;
+	height: 85%;
+	width: 100%;
+	justify-content: space-between;
+	overflow: auto;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-self: center;
+	width: 80%;
+	size: auto;
+}
+
+.side {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-self: center;
+	width: 20%;
+	height: auto;
+	overflow: auto;
+	size: auto;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #6666cc;
+	border-radius: 10px;
+	text-align: center;
+	width: 100%;
+	height: 5%;
+	align-self: flex-end;
+	positon: fixed;
+	margin-top: 1%;
+}
+
+.foot {
+	justify-content: space-aroud;
+	align-self: center;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-self: center;
+	font-size: 1vw;
+	padding: 2%;
+}
+
+form.log {
+	display: flex;
+	width: 50%;
+	margin-left: 15%;
+}
+
+form.log input {
+	margin: 5%;
+}
+
+form.log input.sub {
+	display: flex;
+	width: 10%;
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+}
+
+form.upl {
+	margin-top: 3%;
+}
+
+#photo {
+	width: 320px;
+	heigth: 240px;
+	align-self: center;
+}
+
+#video {
+	align-self: center;
+}
+
+button {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.rad {
+	margin-bottom: 2%;
+}
+
+.gal {
+	display: flex;
+	height: 85%;
+	width: 100%;
+	justify-content: space-between;
+	overflow: auto;
+}
+
+.pict {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-self: flex-start;
+	 text-align: center;
+	 margin-top: 3%;
+	 overflow: auto;
+}
+
+.pict:nth-child(1) {
+	margin-left: 8%;
+}
+
+.page {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	align-self: flex-end;
+	font-size: 1.1vw;
+	color: green;
+	left: 40%;
+	width: 10%;
+}
+
+.page a {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#msg {
+	border: solid red 1px;
+}
